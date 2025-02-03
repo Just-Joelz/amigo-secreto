@@ -1,15 +1,24 @@
-<h1>Challenge ONE Amigo Secreto</h1>   
-<h2>Descripción</h2>
+<h1>Challenge ONE Amigo Secreto</h1>
+<h2>Índice</h2>
+<ul>
+    <li><a href="#descripcion">Descripción</a></li>
+    <li><a href="#tecnologias">Tecnologías Utilizadas</a></li>
+    <li><a href="#funcionalidades">Funcionalidades</a></li>
+    <li><a href="#uso">Instrucciones de Uso</a></li>
+    <li><a href="#estructura">Estructura del Código</a></li>
+    <li><a href="#autor">Autor</a></li>
+</ul>
+<h2 id="descripcion">Descripción</h2>
 <p>Este proyecto es una aplicación sencilla en JavaScript que permite a los usuarios agregar nombres a una lista y luego realizar un sorteo para elegir un "amigo secreto" de manera aleatoria.</p>
     
-<h2>Tecnologías Utilizadas</h2>
+<h2 id='tecnologias'>Tecnologías Utilizadas</h2>
 <ul>
         <li>HTML</li>
         <li>CSS</li>
         <li>JavaScript</li>
   </ul>
     
-  <h2>Funcionalidades</h2>
+  <h2 id='funcionalidades'>Funcionalidades</h2>
     <ul>
         <li><strong>Agregar Amigos</strong>: Permite a los usuarios ingresar nombres en un campo de texto y agregarlos a una lista.</li>
         <li><strong>Actualizar Lista</strong>: Cada nombre ingresado se muestra en una lista en la interfaz de usuario.</li>
@@ -22,7 +31,7 @@
         </li>
     </ul>
     
-  <h2>Instrucciones de Uso</h2>
+  <h2 id='uso'>Instrucciones de Uso</h2>
     <ol>
         <li>Escribe un nombre en el campo de entrada.</li>
         <li>Haz clic en el botón de agregar para incluirlo en la lista.</li>
@@ -30,7 +39,7 @@
         <li>Se mostrará el nombre seleccionado como "amigo secreto".</li>
     </ol>
     
-  <h2>Estructura del Código</h2>
+  <h2 id='estructura'>Estructura del Código</h2>
     <ul>
         <li><code>listaAmigos</code>: Array donde se almacenan los nombres ingresados.</li>
         <li><code>agregarAmigo()</code>: Agrega un nombre a la lista y actualiza la interfaz.</li>
@@ -39,6 +48,6 @@
         <li><code>sortearAmigo()</code>: Selecciona aleatoriamente un nombre de la lista y lo muestra como resultado.</li>
     </ul>
     
-  <h2>Autor</h2>
+  <h2 id='autor'>Autor</h2>
     <p>Joel Hernández</p>
 
